@@ -12,7 +12,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>TimeTerminalCommand</RootNamespace>
-    <PackageId>TerminalExp</PackageId>
+    <PackageId>TerminalExpansion</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

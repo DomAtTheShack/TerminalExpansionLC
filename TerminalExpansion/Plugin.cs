@@ -6,9 +6,9 @@ using static System.Net.Mime.MediaTypeNames;
 using static TerminalApi.Events.Events;
 using static TerminalApi.TerminalApi;
 
-namespace TerminalExp
+namespace TerminalExpansion
 {
-	[BepInPlugin("dominic.TerminalExp", "Dom's Terminal Expansion", "1.0.0")]
+	[BepInPlugin("dominic.TerminalExpansion", "Dom's Terminal Expansion", "1.0.0")]
 	[BepInDependency("atomic.terminalapi")]
 	public class Plugin : BaseUnityPlugin
 	{

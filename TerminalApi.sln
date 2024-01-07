@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerminalApi", "TerminalApi\TerminalApi.csproj", "{C38E530C-B997-4F94-81F2-96CC8190984E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerminalExp", "TerminalExp\TerminalExp.csproj", "{49C4A8A4-752F-4A6A-9AEB-F2319CB356B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerminalExpansion", "TerminalExpansion\TerminalExpansion.csproj", "{49C4A8A4-752F-4A6A-9AEB-F2319CB356B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
