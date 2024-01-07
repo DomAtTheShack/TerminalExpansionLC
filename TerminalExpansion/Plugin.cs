@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿using System.Threading.Tasks;
+using BepInEx;
 using System.Web;
 using TerminalApi;
 using TerminalApi.Classes;
@@ -12,6 +13,7 @@ namespace TerminalExpansion
 	[BepInDependency("atomic.terminalapi")]
 	public class Plugin : BaseUnityPlugin
 	{
+		private bool isInUse;
 		private void Awake()
 		{
 			Logger.LogInfo("Plugin Test Plugin is loaded!");
@@ -93,8 +95,7 @@ namespace TerminalExpansion
 		{
             if (StartOfRound.Instance.currentLevel.planetHasTime && StartOfRound.Instance.shipDoorsEnabled)
                 return "YesToTime";
-            else
-                return "NoToTime";
+            return "NoToTime";
         }
 		private string CommandFunction()
 		{
@@ -109,7 +110,6 @@ namespace TerminalExpansion
 			// Or
 			Logger.LogMessage(e.CurrentInputText);
 
-			// If user types in fuck it will changed to frick before they can even submit
 			if(userInput.Equals("Jew"))
 			{
 				SetTerminalInput("Jew??\n Eww don't type that!");
@@ -120,14 +120,15 @@ namespace TerminalExpansion
         private void OnTerminalExit(object sender, TerminalEventArgs e)
         {
             Logger.LogMessage("Terminal Exited");
+            isInUse = true;
         }
 
         private void TerminalIsAwake(object sender, TerminalEventArgs e)
-		{
-			Logger.LogMessage("Terminal is awake");
+        {
+	        Logger.LogMessage("Terminal is awake");
 
-			// Adds 'Hello' as a new line to the help node
-			NodeAppendLine("help", "\nHello");
+			NodeAppendLine("help", "\nSo what are we buying today?\n");
+		
         }
 
 		private void TerminalIsWaking(object sender, TerminalEventArgs e)
@@ -158,6 +159,7 @@ namespace TerminalExpansion
         private void BeganUsing(object sender, TerminalEventArgs e)
         {
             Logger.LogMessage("Player is using terminal");
+            isInUse = true;
         }
 
     }
