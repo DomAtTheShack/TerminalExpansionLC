@@ -1,8 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using System.Text;
+using System.Threading.Tasks;
 using BepInEx;
 using System.Web;
+using GameNetcodeStuff;
 using TerminalApi;
 using TerminalApi.Classes;
+using UnityEngine;
 using static System.Net.Mime.MediaTypeNames;
 using static TerminalApi.Events.Events;
 using static TerminalApi.TerminalApi;
@@ -28,26 +31,38 @@ namespace TerminalExpansion
 			TerminalExited += OnTerminalExit;
             TerminalTextChanged += OnTerminalTextChanged;
 
-            //Dom's First Test
-
-            AddCommand("domstime", new CommandInfo()
+            //Add the time command
+            
+            AddCommand("time", new CommandInfo()
             {
                 DisplayTextSupplier = () =>
                 {
-                    Logger.LogWarning("Wowow, this ran.");
-					return domsTime() + "\n";
+                    Logger.LogWarning("Time command ran!");
+					return Time() + "\n";
                 },
-                Category = "Other"
+                Category = "Other",
+                Description = "This command will display the current time."
             });
-
-			
-        }
-
-		private string domsTime()
+            
+		}
+		public string KillPlayerCommand(PlayerControllerB player)
 		{
-			if (StartOfRound.Instance.currentLevel.planetHasTime && StartOfRound.Instance.shipDoorsEnabled)
-				return "YesToTime";
-			return "NoToTime";
+			if (StartOfRound.Instance == null)
+				return "Game not started";
+
+			player.KillPlayer(Vector3.up);
+			return $"Killed {player.playerUsername}";
+		}
+		
+		private string Time()
+		{
+			if (StartOfRound.Instance.currentLevel.planetHasTime &&
+			    StartOfRound.Instance.shipDoorsEnabled)
+			{
+				return "Current time: " +
+				       HUDManager.Instance.clockNumber.text.Replace('\n', ' ');
+			}
+			return "Time isn't Available";
 		}
 
         private void OnTerminalTextChanged(object sender, TerminalTextChangedEventArgs e)
@@ -59,10 +74,11 @@ namespace TerminalExpansion
 
 			if(userInput.Equals("Jew"))
 			{
-				SetTerminalInput("Jew??\n Eww don't type that!");
+				SetTerminalInput("Jew??\nEww don't type that!");
 			}
 			
         }
+        
 
         private void OnTerminalExit(object sender, TerminalEventArgs e)
         {
@@ -109,6 +125,5 @@ namespace TerminalExpansion
             Logger.LogMessage("Player is using terminal");
             isInUse = true;
         }
-
     }
 }
