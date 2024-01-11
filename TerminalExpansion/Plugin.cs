@@ -69,12 +69,10 @@ namespace TerminalExpansion
         {
 			string userInput = GetTerminalInput();
 			Logger.LogMessage(userInput);
-			// Or
-			Logger.LogMessage(e.CurrentInputText);
 
-			if(userInput.Equals("Jew"))
+			if(userInput.Equals("Dominic"))
 			{
-				SetTerminalInput("Jew??\nEww don't type that!");
+				SetTerminalInput("How do you know my name?");
 			}
 			
         }
@@ -90,7 +88,8 @@ namespace TerminalExpansion
         {
 	        Logger.LogMessage("Terminal is awake");
 
-			NodeAppendLine("help", "\nSo what are we buying today?\n");
+			NodeAppendLine("help", "So what are we buying today?\n" +
+			                       "Or are we going to Titan?\n");
 			
 		
         }
