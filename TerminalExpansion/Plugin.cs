@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using BepInEx;
 using System.Web;
 using GameNetcodeStuff;
+using LethalOS.API.Terminal;
 using TerminalApi;
 using TerminalApi.Classes;
 using UnityEngine;
@@ -123,6 +124,20 @@ namespace TerminalExpansion
         {
             Logger.LogMessage("Player is using terminal");
             isInUse = true;
+        }
+
+        public void Init()
+        {
+	        var utilsMenu = new Menu("TerminalUtils", "Some terminal utilities.", "terminalutils", "Verity");
+        
+	        //EnemyCategory
+	        var enemyCategory = new Category("EnemyUtils", "Enemy utils.", "enemyutils");
+	        //enemyCategory.AddModule(new EnemyScan());
+	        //enemyCategory.AddModule(new DespawnEnemies());
+	        //EnemyCategory
+        
+	        utilsMenu.AddCategory(enemyCategory);
+	        utilsMenu.Finished();
         }
     }
 }
