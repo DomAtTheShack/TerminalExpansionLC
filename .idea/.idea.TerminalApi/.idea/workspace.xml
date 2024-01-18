@@ -5,334 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91745558-832b-4ebf-be98-7a59aae24a84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DLLS/0Harmony.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/0Harmony20.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/AmazingAssets.TerrainToMesh.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Assembly-CSharp-firstpass.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Assembly-CSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/BepInEx.Harmony.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/BepInEx.Preloader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/BepInEx.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/ClientNetworkTransform.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/DissonanceVoip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Facepunch Transport for Netcode for GameObjects.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Facepunch.Steamworks.Win64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/HarmonyXInterop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Mono.Cecil.Mdb.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Mono.Cecil.Pdb.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Mono.Cecil.Rocks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Mono.Cecil.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Mono.Security.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/MonoMod.RuntimeDetour.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/MonoMod.Utils.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.ComponentModel.Composition.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Data.DataSetExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Data.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Drawing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.EnterpriseServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.IO.Compression.FileSystem.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.IO.Compression.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Net.Http.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Numerics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Runtime.Serialization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Security.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.ServiceModel.Internals.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Transactions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Xml.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.Xml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/System.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.AI.Navigation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Animation.Rigging.DocCodeExamples.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Animation.Rigging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.Cecil.Mdb.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.Cecil.Pdb.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.Cecil.Rocks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.Cecil.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Burst.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Collections.LowLevel.ILSupport.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Collections.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.InputSystem.ForUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.InputSystem.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Jobs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Mathematics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.MetricTypes.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetStats.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetStatsReporting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Multiplayer.Tools.Util.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Netcode.Components.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Netcode.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Networking.Transport.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.ProBuilder.Csg.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.ProBuilder.KdTree.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.ProBuilder.Poly2Tri.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.ProBuilder.Stl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.ProBuilder.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Profiling.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.RenderPipelines.Core.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.RenderPipelines.Core.ShaderLibrary.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.RenderPipelines.HighDefinition.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Authentication.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Analytics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Device.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Environments.Internal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Environments.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Internal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Networking.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Registration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Scheduler.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Telemetry.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.Threading.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.QoS.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Services.Relay.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.TextMeshPro.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.Timeline.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/Unity.VisualEffectGraph.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AIModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ARModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AccessibilityModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AndroidJNIModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AnimationModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AssetBundleModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.AudioModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ClothModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ClusterInputModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ContentLoadModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.CoreModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.CrashReportingModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.DSPGraphModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.DirectorModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.GIModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.GameCenterModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.GridModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.HotReloadModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.IMGUIModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ImageConversionModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.InputLegacyModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.InputModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.LocalizationModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.NVIDIAModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.Physics2DModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.PhysicsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ProfilerModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.PropertiesModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.StreamingModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.SubstanceModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.SubsystemsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TLSModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TerrainModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TextCoreFontEngineModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TextCoreTextEngineModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TextRenderingModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.TilemapModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UIElementsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UIElementsNativeModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UIModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UNETModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UmbraModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityAnalyticsCommonModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityConnectModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityCurlModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityTestProtocolModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityWebRequestAssetBundleModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.VFXModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.VRModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.VehiclesModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.VideoModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.VirtualTexturingModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.WindModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.XRModule.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/UnityEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/mscorlib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLLS/netstandard.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerminalExpansion/Utils/DespawnEnemies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerminalExpansion/Utils/EnemyScan.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/AmazingAssets.TerrainToMesh.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Assembly-CSharp-firstpass.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Assembly-CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/ClientNetworkTransform.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/DissonanceVoip.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Facepunch Transport for Netcode for GameObjects.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Facepunch.Steamworks.Win64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Mono.Security.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Newtonsoft.Json.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.ComponentModel.Composition.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Data.DataSetExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Drawing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.EnterpriseServices.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.IO.Compression.FileSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.IO.Compression.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Net.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Numerics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Runtime.Serialization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Security.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.ServiceModel.Internals.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Transactions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Xml.Linq.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/System.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/TerminalApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/TerminalExpansion.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/TerminalExpansion.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/TestPlugin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/TestPlugin.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.AI.Navigation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Animation.Rigging.DocCodeExamples.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Animation.Rigging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Burst.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Burst.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Collections.LowLevel.ILSupport.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Collections.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.InputSystem.ForUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.InputSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Jobs.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Mathematics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.MetricTypes.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetStats.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetStatsReporting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Netcode.Components.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Netcode.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Networking.Transport.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.ProBuilder.Csg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.ProBuilder.KdTree.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.ProBuilder.Poly2Tri.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.ProBuilder.Stl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.ProBuilder.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Profiling.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.RenderPipelines.Core.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.RenderPipelines.Core.ShaderLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.RenderPipelines.HighDefinition.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Authentication.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Analytics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Device.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Environments.Internal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Environments.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Internal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Networking.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Registration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Scheduler.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Telemetry.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.Threading.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.QoS.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Services.Relay.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.TextMeshPro.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.Timeline.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Unity.VisualEffectGraph.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AIModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ARModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AccessibilityModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AndroidJNIModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AnimationModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AssetBundleModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.AudioModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ClothModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ClusterInputModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ClusterRendererModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ContentLoadModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.CoreModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.CrashReportingModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.DSPGraphModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.DirectorModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.GIModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.GameCenterModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.GridModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.HotReloadModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.IMGUIModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ImageConversionModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.InputLegacyModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.InputModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.JSONSerializeModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.LocalizationModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.NVIDIAModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ParticleSystemModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.Physics2DModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.PhysicsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ProfilerModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.PropertiesModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.SharedInternalsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.SpriteMaskModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.SpriteShapeModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.StreamingModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.SubstanceModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.SubsystemsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TLSModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TerrainModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TextCoreFontEngineModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TextCoreTextEngineModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TextRenderingModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.TilemapModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UIElementsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UIModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UmbraModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityAnalyticsCommonModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityConnectModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityCurlModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityTestProtocolModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityWebRequestAssetBundleModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.VFXModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.VRModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.VehiclesModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.VideoModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.VirtualTexturingModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.WindModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.XRModule.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/UnityEngine.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/mscorlib.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/netstandard.dll" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,34 +57,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "Publish to folder.Unnamed.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Shell Script.Build and Copy OSTC.executor": "Run",
-    "Shell Script.Build and Copy.executor": "Run",
-    "Shell Script.Unnamed.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;Publish to folder.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Shell Script.Build and Copy OSTC.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Build and Copy.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\ctehannd67\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ctehannd67\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Shell Script.Build and Copy OSTC">
     <configuration name="Build and Copy Home" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="cp C:\Users\dooli\RiderProjects\TerminalExpProj\TerminalExpansion\bin\Debug\net46\TerminalExpansion.dll &quot;C:\Users\dooli\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Doms Test Mod\BepInEx\plugins\DomTermMod&quot;" />
@@ -483,7 +158,8 @@
       <workItem from="1704904934734" duration="6600000" />
       <workItem from="1704911957548" duration="81000" />
       <workItem from="1704990130968" duration="4305000" />
-      <workItem from="1704994471920" duration="984000" />
+      <workItem from="1704994471920" duration="3597000" />
+      <workItem from="1705594705329" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -501,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704912028908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove TestPlugin.csproj and update workspace.xml&#10;&#10;The TestPlugin.csproj file got deleted, removing its properties, references, and item groups. Also, .idea/.idea.TerminalApi/.idea/workspace.xml has been significantly updated, reflecting changes in various DLL files, and code files under TerminalExpansion.">
+      <option name="closed" value="true" />
+      <created>1704995608810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704995608811</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,6 +200,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add TerminalCommand and AllowedCaller attributes with enums&#10;&#10;A new file named TerminalCommandAttribute.cs is added which defines the TerminalCommand and AllowedCaller attributes, along with AllowedCaller enums. A function for killing player command has also been introduced in Plugin.cs. The 'domstime' command is replaced with the 'time' command, which provides the current time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TerminalCommand and AllowedCaller attributes with enums&#10;&#10;A new file named TerminalCommandAttribute.cs is added which defines the TerminalCommand and AllowedCaller attributes, along with AllowedCaller enums. A function for killing player command has also been introduced in Plugin.cs. The 'domstime' command is replaced with the 'time' command, which provides the current time." />
+    <MESSAGE value="Remove TestPlugin.csproj and update workspace.xml&#10;&#10;The TestPlugin.csproj file got deleted, removing its properties, references, and item groups. Also, .idea/.idea.TerminalApi/.idea/workspace.xml has been significantly updated, reflecting changes in various DLL files, and code files under TerminalExpansion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove TestPlugin.csproj and update workspace.xml&#10;&#10;The TestPlugin.csproj file got deleted, removing its properties, references, and item groups. Also, .idea/.idea.TerminalApi/.idea/workspace.xml has been significantly updated, reflecting changes in various DLL files, and code files under TerminalExpansion." />
   </component>
 </project>
