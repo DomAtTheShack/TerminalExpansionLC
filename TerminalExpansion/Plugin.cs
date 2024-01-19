@@ -1,21 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using BepInEx;
-using System.Web;
+﻿using BepInEx;
 using GameNetcodeStuff;
-using TerminalApi;
 using TerminalApi.Classes;
 using TerminalApi.Events;
-using TerminalStuff;
 using TimeTerminalCommand;
 using UnityEngine;
-using UnityEngine.Events;
-using static System.Net.Mime.MediaTypeNames;
 using static TerminalApi.Events.Events;
 using static TerminalApi.TerminalApi;
 
