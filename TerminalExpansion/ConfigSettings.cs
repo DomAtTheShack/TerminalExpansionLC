@@ -5,40 +5,6 @@ namespace TerminalStuff
 {
     public static class ConfigSettings
     {
-        //establish commands that can be turned on or off here
-        public static ConfigEntry<bool> ModNetworking;
-        public static ConfigEntry<bool> terminalLobby; //lobby name command
-        public static ConfigEntry<bool> terminalCams; //cams command
-        public static ConfigEntry<bool> terminalQuit; //quit command
-        public static ConfigEntry<bool> terminalClear; //clear command
-        public static ConfigEntry<bool> terminalLoot; //loot command
-        public static ConfigEntry<bool> terminalLol; //lol command
-        public static ConfigEntry<bool> terminalHeal; //heal command
-        public static ConfigEntry<bool> terminalFov; //Fov command
-        public static ConfigEntry<bool> terminalGamble; //Gamble command
-        public static ConfigEntry<bool> terminalLever; //Lever command
-        public static ConfigEntry<bool> terminalDanger; //Danger command
-        public static ConfigEntry<bool> terminalVitals; //Vitals command
-        public static ConfigEntry<bool> terminalBioScan; //BioScan command
-        public static ConfigEntry<bool> terminalVitalsUpgrade; //Vitals Upgrade command
-        public static ConfigEntry<bool> terminalTP; //Teleporter command
-        public static ConfigEntry<bool> terminalITP; //Inverse Teleporter command
-        public static ConfigEntry<bool> terminalMods; //Modlist command
-        public static ConfigEntry<bool> terminalKick; //Kick command (host only)
-        public static ConfigEntry<bool> terminalFcolor; //Flashlight color command
-        public static ConfigEntry<bool> terminalMap; //Map shortcut
-        public static ConfigEntry<bool> terminalMinimap; //Minimap command
-        public static ConfigEntry<bool> terminalMinicams; //Minicams command
-        public static ConfigEntry<bool> terminalOverlay; //Overlay cams command
-        public static ConfigEntry<bool> terminalDoor; //Door Toggle command
-        public static ConfigEntry<bool> terminalLights; //Light Toggle command
-        public static ConfigEntry<bool> terminalScolor; //Light colors command
-        public static ConfigEntry<bool> terminalAlwaysOn; //AlwaysOn command
-        public static ConfigEntry<bool> terminalLink; //Link command
-        public static ConfigEntry<bool> terminalLink2; //Link2 command
-        public static ConfigEntry<bool> terminalRandomSuit; //RandomSuit command
-
-
         //Strings for display messages
         public static ConfigEntry<string> doorOpenString; //Door String
         public static ConfigEntry<string> doorCloseString; //Door String
@@ -92,34 +58,6 @@ namespace TerminalStuff
         public static ConfigEntry<string> homeLine1;
         public static ConfigEntry<string> homeLine2;
         public static ConfigEntry<string> homeLine3;
-
-        //keyword strings (terminalapi)
-        public static ConfigEntry<string> alwaysOnKeyword; //string to match keyword
-        public static ConfigEntry<string> minimapKeyword;
-        public static ConfigEntry<string> minicamsKeyword;
-        public static ConfigEntry<string> overlayKeyword;
-        public static ConfigEntry<string> doorKeyword;
-        public static ConfigEntry<string> lightsKeyword;
-        public static ConfigEntry<string> modsKeyword2;
-        public static ConfigEntry<string> tpKeyword2;
-        public static ConfigEntry<string> itpKeyword2;
-        public static ConfigEntry<string> quitKeyword2;
-        public static ConfigEntry<string> lolKeyword;
-        public static ConfigEntry<string> clearKeyword2;
-        public static ConfigEntry<string> dangerKeyword;
-        public static ConfigEntry<string> healKeyword2;
-        public static ConfigEntry<string> lootKeyword2;
-        public static ConfigEntry<string> camsKeyword2;
-        public static ConfigEntry<string> mapKeyword2;
-        public static ConfigEntry<string> randomSuitKeyword;
-
-        //terminal patcher keywords
-        public static ConfigEntry<string> fcolorKeyword;
-        public static ConfigEntry<string> gambleKeyword;
-        public static ConfigEntry<string> leverKeyword;
-        public static ConfigEntry<string> scolorKeyword;
-        public static ConfigEntry<string> linkKeyword;
-        public static ConfigEntry<string> link2Keyword;
         
     }
 }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91745558-832b-4ebf-be98-7a59aae24a84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TerminalExpansion/Commands.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerminalApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalApi.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,34 +59,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;Publish to folder.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Shell Script.Build and Copy OSTC.executor&quot;: &quot;Run&quot;,
-    &quot;Shell Script.Build and Copy.executor&quot;: &quot;Run&quot;,
-    &quot;Shell Script.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "Publish to folder.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Shell Script.Build and Copy OSTC.executor": "Run",
+    "Shell Script.Build and Copy.executor": "Run",
+    "Shell Script.Unnamed.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\ctehannd67\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/dominichann/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/home/dominichann/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/home/dominichann/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Shell Script.Build and Copy OSTC">
     <configuration name="Build and Copy Home" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="cp C:\Users\dooli\RiderProjects\TerminalExpProj\TerminalExpansion\bin\Debug\net46\TerminalExpansion.dll &quot;C:\Users\dooli\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Doms Test Mod\BepInEx\plugins\DomTermMod&quot;" />
@@ -106,12 +108,12 @@
     </configuration>
     <configuration name="Build and Copy OSTC" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="cp C:\Users\ctehannd67\RiderProjects\TerminalExpansionLC\TerminalExpansion\bin\Debug\net46\TerminalExpansion.dll &quot;C:\Users\ctehannd67\Downloads\Lethal Company\BepInEx\plugins\TermExp&quot; \n &quot;C:\Users\ctehannd67\Downloads\Lethal Company\Lethal Company.exe&quot;" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$USER_HOME$/Downloads/Lethal Company/CopyBAT.bat" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="false" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="$PROJECT_DIR$/../../../../Windows/System32/cmd.exe" />
       <option name="INTERPRETER_OPTIONS" value="/c" />
       <option name="EXECUTE_IN_TERMINAL" value="false" />
