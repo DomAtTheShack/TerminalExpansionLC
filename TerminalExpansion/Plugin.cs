@@ -12,6 +12,7 @@ using TerminalApi;
 using TerminalApi.Classes;
 using TerminalApi.Events;
 using TerminalStuff;
+using TimeTerminalCommand;
 using UnityEngine;
 using UnityEngine.Events;
 using static System.Net.Mime.MediaTypeNames;
@@ -25,6 +26,8 @@ namespace TerminalExpansion
 	public class Plugin : BaseUnityPlugin
 	{
 		private bool isInUse;
+
+		private Commands _commandMgr = new Commands();
 		private void Awake()
 		{
 			Logger.LogInfo("Plugin Test Plugin is loaded!");
@@ -46,7 +49,7 @@ namespace TerminalExpansion
                 DisplayTextSupplier = () =>
                 {
                     Logger.LogWarning("Time command ran!");
-					return Time() + "\n";
+					return _commandMgr.Time() + "\n";
                 },
                 Category = "Other",
                 Description = "This command will display the current time."
@@ -56,7 +59,7 @@ namespace TerminalExpansion
 	            DisplayTextSupplier = () =>
 	            {
 		            Logger.LogWarning("Total Loot Calculated!");
-		            return getLoot() + DoorCommand() + "\n";
+		            return _commandMgr.getLoot() + _commandMgr.DoorCommand() + "\n";
 	            },
 	            Category = "Other",
 	            Description = "This command will display the current time."

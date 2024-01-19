@@ -13,7 +13,7 @@ namespace TimeTerminalCommand;
 public class Commands
 {
 	private Plugin _logger = new Plugin();
-	private string DoorCommand()
+	public string DoorCommand()
 	{
 		if (!StartOfRound.Instance.inShipPhase)
 		{
@@ -76,7 +76,7 @@ public class Commands
 		return "";
 		}
 		
-		private string Time()
+		public string Time()
 		{
 			if (StartOfRound.Instance.currentLevel.planetHasTime &&
 			    StartOfRound.Instance.shipDoorsEnabled)
