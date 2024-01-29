@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91745558-832b-4ebf-be98-7a59aae24a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Commands.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +79,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/home/dominichann/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/home/dominichann/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/home/dominichann/.local/share/Symbols/src&quot;
+      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ctehannd67\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ctehannd67\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -162,7 +160,9 @@
       <workItem from="1704990130968" duration="4305000" />
       <workItem from="1704994471920" duration="3597000" />
       <workItem from="1705594705329" duration="3265000" />
-      <workItem from="1705681048772" duration="8142000" />
+      <workItem from="1705681048772" duration="8647000" />
+      <workItem from="1706545227066" duration="157000" />
+      <workItem from="1706546823691" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704995608811</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove Commands.cs and update terminal commands in Plugin.cs&#10;&#10;The Commands.cs file has been removed and terminal commands formerly managed by this file have been added directly to Plugin.cs. Additionally, ConfigSettings.cs has been simplified with several strings reduced to basic functionality. Other minor modifications are to workspace.xml to reflect these changes.">
+      <option name="closed" value="true" />
+      <created>1705689242697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705689242697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add TerminalCommand and AllowedCaller attributes with enums&#10;&#10;A new file named TerminalCommandAttribute.cs is added which defines the TerminalCommand and AllowedCaller attributes, along with AllowedCaller enums. A function for killing player command has also been introduced in Plugin.cs. The 'domstime' command is replaced with the 'time' command, which provides the current time." />
     <MESSAGE value="Remove TestPlugin.csproj and update workspace.xml&#10;&#10;The TestPlugin.csproj file got deleted, removing its properties, references, and item groups. Also, .idea/.idea.TerminalApi/.idea/workspace.xml has been significantly updated, reflecting changes in various DLL files, and code files under TerminalExpansion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove TestPlugin.csproj and update workspace.xml&#10;&#10;The TestPlugin.csproj file got deleted, removing its properties, references, and item groups. Also, .idea/.idea.TerminalApi/.idea/workspace.xml has been significantly updated, reflecting changes in various DLL files, and code files under TerminalExpansion." />
+    <MESSAGE value="Remove Commands.cs and update terminal commands in Plugin.cs&#10;&#10;The Commands.cs file has been removed and terminal commands formerly managed by this file have been added directly to Plugin.cs. Additionally, ConfigSettings.cs has been simplified with several strings reduced to basic functionality. Other minor modifications are to workspace.xml to reflect these changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Commands.cs and update terminal commands in Plugin.cs&#10;&#10;The Commands.cs file has been removed and terminal commands formerly managed by this file have been added directly to Plugin.cs. Additionally, ConfigSettings.cs has been simplified with several strings reduced to basic functionality. Other minor modifications are to workspace.xml to reflect these changes." />
   </component>
 </project>
