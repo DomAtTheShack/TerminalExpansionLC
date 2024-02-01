@@ -12,6 +12,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using static TerminalApi.Events.Events;
 using static TerminalApi.TerminalApi;
+using Random = UnityEngine.Random;
 
 namespace TerminalExpansion
 {
@@ -19,8 +20,13 @@ namespace TerminalExpansion
 	[BepInDependency("atomic.terminalapi")]
 	public class Plugin : BaseUnityPlugin
 	{
+		// Will be true while a player is currently using the terminal
 		private bool isInUse;
 
+		/*
+		This method is the Main startup of the plugin 
+		This holds all commands that have been added and terminal states
+		*/
 		private void Awake()
 		{
 			Logger.LogInfo("TerminalExpansion Plugin is loaded!");
@@ -82,18 +88,47 @@ namespace TerminalExpansion
 				Description = "This command will toggle the hanger door"
 			},"toggle", false);
 			
+			//Adds the command to randomly get a new suit to apply to the player
 			AddCommand("suit", new CommandInfo()
 			{
 				DisplayTextSupplier = () =>
 				{
 					Logger.LogMessage($"Getting random suit for player {GetMyPlayerID()}");
-					return getRandomSuit() + '\n';
+					return GetRandomSuit() + '\n';
 				},
 				Category = "Other",
 				Description = "This will change the players suit to a new random one"
 			},"random", false);
+			
+			AddCommand("lights", new CommandInfo()
+			{
+				DisplayTextSupplier = () =>
+				{
+					string lightStatus = 
+						StartOfRound.Instance.shipRoomLights.areLightsOn ? "off" : "on";
+					Logger.LogMessage($"Toggling lights {lightStatus}!");
+					return ToggleShipLights() + '\n';
+				},
+				Category = "Other",
+				Description = "This will toggle the ship lights on or off"
+			},"light", false);
+			
+			AddCommand("bioscan", new CommandInfo()
+			{
+				DisplayTextSupplier = () =>
+				{
+					Logger.LogMessage("Scanning the base...");
+					return ScanBase() + '\n';
+				},
+				Category = "Other",
+				Description = "Will scan the base and list the current enemies"
+			});
 		}
 		
+		/*
+		This toggles the ship door open or closed or
+		not at all depending on ship location and current state
+		*/
 		public string ToggleDoor()
 		{
 			// Check if the ship is in Orbit or not
@@ -145,13 +180,38 @@ namespace TerminalExpansion
 			}
 			return "";
 		}
+
+		/*
+		This will toggle the ship lights and return
+		a message to the terminal based on current state
+		*/
+		private string ToggleShipLights()
+		{
+			string lightStatus;
+			if (StartOfRound.Instance.shipRoomLights.areLightsOn)
+			{
+				lightStatus = "Turing the ship lights off!";
+			}
+			else
+			{
+				lightStatus = "Turing the ship lights on!";
+			}
+			StartOfRound.Instance.shipRoomLights.ToggleShipLights();
+			return lightStatus;
+		}
 		
+		/*
+		 * Sets the isInUse bool true to indicate that the terminal is in use
+		 */
 		private void BeganUsing(object sender, Events.TerminalEventArgs e)
 		{
 			Logger.LogMessage("Player is using terminal");
 			isInUse = true;
 		}
 		
+		/*
+		 * Using a list it gets all sellable items and adds them up to show to the player
+		 */
 		public float CalculateLootValue()
 		{
 			// This looks like a lot but basically it grabs all GrabbaleObjects
@@ -160,14 +220,18 @@ namespace TerminalExpansion
 					GameObject.Find("/Environment/HangarShip")
 						.GetComponentsInChildren<GrabbableObject>())
 				.Where<GrabbableObject>(obj => obj.name
-				                               != "ClipboardManual" &&
-				                               obj.name != "StickyNoteItem").ToList<GrabbableObject>(); 
+				                               != "ClipboardManual" && 
+				 obj.name != "StickyNoteItem").ToList<GrabbableObject>(); 
 	        
 			return (float)list.Sum<GrabbableObject>(scrap => scrap.scrapValue); 
 			// Gets the sum while formatting 
 		}
 
-		private string getRandomSuit()
+		/*
+		 * Will check current suits and including
+		 modded suits it will randomly assign a new suit
+		 */
+		private string GetRandomSuit()
             {
                 List<UnlockableSuit> allSuits = new List<UnlockableSuit>();
                 List<UnlockableItem> UnlockableSuits = new List<UnlockableItem>();
@@ -179,9 +243,11 @@ namespace TerminalExpansion
                 if (allSuits.Count > 1)
                 {
                     // Order the list by syncedSuitID.Value
-                    allSuits = allSuits.OrderBy((UnlockableSuit suit) => suit.suitID).ToList();
+                    allSuits = allSuits.OrderBy((UnlockableSuit suit) =>
+	                    suit.suitID).ToList();
 
-                    allSuits.RemoveAll(suit => suit.syncedSuitID.Value < 0); //simply remove bad suit IDs
+                    allSuits.RemoveAll(suit =>
+	                    suit.syncedSuitID.Value < 0); //simply remove bad suit IDs
 
                     UnlockableSuits = StartOfRound.Instance.unlockablesList.unlockables;
 
@@ -199,10 +265,14 @@ namespace TerminalExpansion
 
                             // Get the UnlockableSuit at the random index
                             UnlockableSuit randomSuit = allSuits[randomIndex];
-                            if (randomSuit != null && UnlockableSuits[randomSuit.syncedSuitID.Value] != null)
+                            if (randomSuit != null && UnlockableSuits
+	                                [randomSuit.syncedSuitID.Value] != null)
                             {
-                                SuitName = UnlockableSuits[randomSuit.syncedSuitID.Value].unlockableName;
-                                UnlockableSuit.SwitchSuitForPlayer(StartOfRound.Instance.allPlayerScripts[playerID], randomSuit.syncedSuitID.Value, true);
+                                SuitName = UnlockableSuits
+	                                [randomSuit.syncedSuitID.Value].unlockableName;
+                                UnlockableSuit.SwitchSuitForPlayer(
+	                                StartOfRound.Instance.allPlayerScripts[playerID],
+	                                randomSuit.syncedSuitID.Value, true);
                                 randomSuit.SwitchSuitServerRpc(playerID);
                                 randomSuit.SwitchSuitClientRpc(playerID);
                                 displayText = $"Changing suit to {SuitName}!\r\n";
@@ -229,13 +299,18 @@ namespace TerminalExpansion
                 }
             }
 		
+		/*
+		 * Returns the current player ID to be used to assign a suit or other stuff
+		 */
 		private int GetMyPlayerID()
 		{
 			List<PlayerControllerB> allPlayers = new List<PlayerControllerB>();
-			string myName = GameNetworkManager.Instance.localPlayerController.playerUsername;
+			string myName = GameNetworkManager
+				.Instance.localPlayerController.playerUsername;
 			int returnID = -1;
 			allPlayers = StartOfRound.Instance.allPlayerScripts.ToList();
-			allPlayers = allPlayers.OrderBy((PlayerControllerB player) => player.playerClientId).ToList();
+			allPlayers = allPlayers.OrderBy((PlayerControllerB player) =>
+				player.playerClientId).ToList();
 			for (int i = 0; i < allPlayers.Count; i++)
 			{
 				if (StartOfRound.Instance.allPlayerScripts[i].playerUsername == myName)
@@ -249,11 +324,16 @@ namespace TerminalExpansion
 				Logger.LogInfo("Failed to find ID");
 			return returnID;
 		}
-		
+		/*
+		 * Gets the current time if on a planet with time
+		 */
 		public string GetCurrentTime()
 		{
-			if (StartOfRound.Instance.currentLevel.planetHasTime &&
-			    StartOfRound.Instance.shipDoorsEnabled)
+			if (!StartOfRound.Instance.currentLevel.planetHasTime)
+			{
+				return "The company keeps the clock from ticking here..."; 
+			}
+			if(StartOfRound.Instance.shipDoorsEnabled)
 			{
 				return "Current time: " +
 				       HUDManager.Instance.clockNumber.text.Replace('\n', ' ');
@@ -262,7 +342,9 @@ namespace TerminalExpansion
 		}
 		
 		
-		// This will run the CalculateLootValue and return it to the terminal
+		/*
+		 * This will run the CalculateLootValue and return it to the terminal
+		 */
         public string GetLootFormatted()
         {
 	        float lootValue = CalculateLootValue();
@@ -272,7 +354,9 @@ namespace TerminalExpansion
         
         
 		
-		// This will run every time a new character is typed into the terminal
+		/*
+		 * This will run every time a new character is typed into the terminal
+		 */
 		private void OnTerminalTextChanged(object sender,
 			Events.TerminalTextChangedEventArgs e)
 		{
@@ -287,6 +371,58 @@ namespace TerminalExpansion
 			}
 			
 		}
+
+		/**
+		 * This will only scan the base if landed on a planet
+		 * If enemies are found it will list how many there are and what type are around
+		 */
+		private string ScanBase()
+		{
+			if (StartOfRound.Instance.currentLevel.planetHasTime &&
+			    
+			    StartOfRound.Instance.shipDoorsEnabled)
+			{
+				//This gets all the spawned Enemies then after getting them it will
+				//get the amount of enemies spawned that aren't players
+				int totalEnemies = RoundManager.Instance.SpawnedEnemies.Count;
+
+				string badNumber = totalEnemies.ToString();
+
+				List<EnemyAI> listOfEnemies = RoundManager.
+					Instance.SpawnedEnemies.ToList();
+
+				var livingEnemies = 
+					listOfEnemies.Where(enemy => !enemy.isEnemyDead);
+
+				//Here is where it uses a pattern
+				string livingEnemyString = string.Join
+					(Environment.NewLine, livingEnemies.Select
+						(enemy => enemy.ToString()));
+				
+				string pattern = @"\([^)]*\)";
+				
+				string filteredString = Regex.Replace
+					(livingEnemyString, pattern, string.Empty);
+				
+				Logger.LogMessage(totalEnemies + " " + badNumber + " " +
+				                  livingEnemies.ToString() + " " +
+				                  livingEnemyString + " " + filteredString);
+
+				return $"detected {badNumber} non-employee organic objects."
+				       + '\r' +'\n' +'\r' +'\n' +
+				       $"Detailed scan has defined these objects as" +
+				       $" the following in the registry:" +
+				       $" \r\n{filteredString}\r\n";
+			}
+
+			return "Your not on a planet or at least one with enemies...";
+		}
+		
+		/*
+		 * All methods from here and below just deal with terminal states and nothing else
+		 * Terminal Events Args are the arguments that are applied to the command
+		 * sender object is what sends the action to the terminal and to the game logic
+		 */
 		private void OnUse(object sender, Events.TerminalEventArgs e)
 		{
 			Logger.LogMessage("Player has just started using the terminal");
