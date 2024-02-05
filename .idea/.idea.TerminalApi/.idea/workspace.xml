@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91745558-832b-4ebf-be98-7a59aae24a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TerminalApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalExpansion/ConfigSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +166,7 @@
       <workItem from="1706631632262" duration="4259000" />
       <workItem from="1706718063309" duration="3989000" />
       <workItem from="1706804663313" duration="6573000" />
+      <workItem from="1707149980201" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
